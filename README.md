@@ -1,6 +1,5 @@
 # host_prototypes
 creates random mac, password, and ssh keys for cloudinit and stores the facts.
-additionally update vault with the randomly created secrets.
 can also output the yaml file for inventory.
 
 
