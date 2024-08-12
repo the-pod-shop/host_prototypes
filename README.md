@@ -13,7 +13,8 @@ can also output the yaml file for inventory.
 - you specify the target path via parameter later
 
 - our dcworkshop1 host has 2 children 
-
+  - they are  listed in `machines`
+  - the prototype vars get defined in the `prototypes` group  
 - in this case those are the vms i used in my anisble playbook als libvirt hosts and created 2 vms on this host
 - your prototypes can have additional parameters defined here, they will get copied to the new host that will get created 
 ```yaml
