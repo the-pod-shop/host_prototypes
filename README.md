@@ -1,4 +1,7 @@
 # host_prototypes
+
+| [collection](https://galaxy.ansible.com/ui/repo/published/ji_podhead/host_prototypes/) |
+
 creates random mac, password, and ssh keys for cloudinit and stores the facts.
 can also output the yaml file for inventory.
 
