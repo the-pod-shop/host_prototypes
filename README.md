@@ -87,7 +87,7 @@ prototypes:
         yaml_path: "/home/ji/Dokumente/podshop-org/Pod-Shop-App-Configs/yamlgen" #optional
         store_yaml: "true" #optional
 ```
-## Test and Debug the Output 
+## Test and Debug - Output 
 - to test if your host got created and has all the facts, i added a little debug loop for you, this is what it will look like:
 ```bash
 TASK [ji_podhead.host_prototypes.create_prototypes : Debug group facts] ********
