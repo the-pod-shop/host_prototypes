@@ -1,7 +1,7 @@
 namespace: "ji_podhead"
 name: "host_prototypes"
 description:  "a little collection that creates hosts from prototypes. it also creates private,public keys, random mac and random pass"
-version: "0.0.4"
+version: "0.0.5"
 readme: "README.md"
 authors:
     - "ji-podhead (https://https://www.github.com/ji-podhead)"
@@ -13,7 +13,7 @@ tags:
     - host_prototypes
     - random_mac_and_random_pass
     - random_ssh_keys
-    - dynamic_host_createn
+    - dynamic_host_creation
 
 repository: "https://www.github.com/the-pod-shop/host_prototypes"
 

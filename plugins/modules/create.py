@@ -20,7 +20,7 @@ import os
 
 from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils._text import to_native
-from ..module_utils.prototypeFacts import  create_facts as pf
+from ..module_utils.prototype_facts import  create_facts as pf
 class AnsiblePrint:
     def __init__(self, module):
         self.status = {"log":[], "return":None}

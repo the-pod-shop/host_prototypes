@@ -169,7 +169,7 @@
    "format": 1
   },
   {
-   "name": "utils/prototypeFacts.py",
+   "name": "utils/prototype_facts.py",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c83f2903a15615dd30f7b1848a69c935a89dcfc9477cd276850bfc4de170f62d",
