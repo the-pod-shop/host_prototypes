@@ -1,0 +1,41 @@
+- name: Create yamls
+  delegate_to: localhost
+  ji_podhead.host_prototypes.create:  
+      yaml_path: '{{ yaml_path }}'
+      group: '{{ group }}'
+      inventory_path: '{{ inventory_path }}'
+      store_yaml: '{{ store_yaml }}'
+  register: yaml_output
+
+- name: Ensure group exists
+  delegate_to: localhost
+  ansible.builtin.group:
+    name: "{{target_group}}"
+    state: "{{target_group_state}}"
+
+- name: Erstelle neue host
+  loop: "{{ yaml_output.result.return }}"
+  loop_control:
+    loop_var: item
+  ansible.builtin.add_host:
+    name: "{{ item['name'] }}"
+    groups: "{{target_group}}"
+
+- name: fact facts
+  delegate_to: "{{ item['name'] }}"
+  delegate_facts: true
+  loop: "{{ yaml_output.result.return }}"
+  loop_control:
+    loop_var: item
+  set_fact:
+    >-
+      {% for key, value in item["vars"].items() %}
+      {{ key }}: "{{ value }}"
+      {% endfor %}
+
+- name: Debug group facts
+  debug:
+      var: hostvars[item]
+  loop: "{{ groups[target_group] }}"
+  loop_control:
+    loop_var: item

@@ -1,0 +1,180 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/main.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3d92b57d8a7ca7c7926b289dce26c0856d10d0c149b6b54a8b55bb7fe9e0122a",
+   "format": 1
+  },
+  {
+   "name": "plugin_requirements.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "725b6f164b22194af91a12f26d723a840145e781333a6ab888073adaa7cba0dd",
+   "format": 1
+  },
+  {
+   "name": "ansible.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3778693a5812e76856af01260ffab7ac20e5085df08b40df57ab9217d7688806",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4cc064cb94930a08306a785d84171c394d610e1bb786a66fe121bba1b9ebb348",
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "837870eaf6e4820554b6d45dbbd6ffe3b162b2b45663fe3ccb4bbae513d31f98",
+   "format": 1
+  },
+  {
+   "name": "plugin_requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01fb6cb751f81f18207a3d5ca291f62b0d68aa0a78191b2abda3819c35e6b24a",
+   "format": 1
+  },
+  {
+   "name": ".vscode",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".vscode/settings.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3285f0ac0a9b8c09cf125187fe128b74c629f15ff6169f7c1f2ed4c2926b351",
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/galaxy_build.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d5228a19aaa0ff672613f5e1e19144b4dce265bf92fc994729615d3af8dfd711",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/execution-environment.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab557b7c85d579f1e2cb9cdbefe1f569f8597ea30116a2f7c2e3a3ee3f7dcad5",
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87e75c08f1d3fa24f3d2d0b4d6f6211bf420bcdea328a8d130d4e1b5ecae1fc4",
+   "format": 1
+  },
+  {
+   "name": "meta/requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95f33aca87239c2179260855dcb4ff289127a76e5f728833cd1b4c42149f95fc",
+   "format": 1
+  },
+  {
+   "name": "tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "29d2c8cef57389f9329e06fdc086aa599e2fa9a6bd4e05e87110da5fb2336aea",
+   "format": 1
+  },
+  {
+   "name": "utils",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "utils/password.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3535eca54759fa505ea5c7195ce8286c53128158d350c5a6871f771539bdd6b3",
+   "format": 1
+  },
+  {
+   "name": "utils/generate_mac_adress.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c31b5873bcffaafb393b19e7b0492a7d35f983da7f2eb6626d0373970d5a210f",
+   "format": 1
+  },
+  {
+   "name": "utils/prototypeFacts.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c83f2903a15615dd30f7b1848a69c935a89dcfc9477cd276850bfc4de170f62d",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
