@@ -30,7 +30,7 @@
   set_fact:
     >-
       {% for key, value in item["vars"].items() %}
-      {{ key }}: "{{ value }}"
+      "{{ key }}": "{{ value }}"
       {% endfor %}
 
 - name: Debug group facts
